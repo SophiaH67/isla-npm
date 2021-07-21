@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+      "target": "ESNext",
+      "module": "CommonJS",
+      "allowJs": true, /* Allow javascript files to be compiled. */
+      "strict": true, /* Enable all strict type-checking options. */
+      "outDir": "./lib", /* Redirect output structure to the directory. */
+      "esModuleInterop": true, /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */
+      "declaration": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}

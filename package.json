@@ -1,0 +1,20 @@
+{
+  "name": "isla-npm",
+  "version": "1.0.0",
+  "description": "NPM package for isla",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "marnixah",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.3.3",
+    "@types/node-fetch": "^2.5.11",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
